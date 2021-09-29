@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <title>3D Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+        model-viewer{
+            width: 400px;
+            height:600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <model-viewer src="assets/AnimatedCube/glTF/AnimatedCube.gltf" camera-controls auto-rotate></model-viewer>
+    </div>
+<div>
+    <model-viewer src="assets/BoomBox/glTF/BoomBox.gltf" camera-controls auto-rotate></model-viewer>
+</div>
+</body>
+</html>
